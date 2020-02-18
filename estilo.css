@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap);
+
+body {
+    border: salmon 5px solid;
+
+}
+
+header {
+    background-color: lightblue;
+    color: red;
+    border: salmon 5px solid;
+    text-align: center;
+    font-family: 'Zhi Mang Xing', cursive;
+    letter-spacing: 5px;
+    text-shadow: gray 5px 0;
+}
+
+div.Lista {
+    background-color: lightyellow;
+    border: salmon 5px solid;
+
+}
+
+div.Test {
+    background-color: lightsteelblue;
+    border: salmon 5px solid;
+
+}
+
+br {
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.numeros {
+    list-style-type: decimal;
+}
+
+li.menu {
+    float: left;
+    background-color: lightblue;
+    margin-right: 20px;
+    border: salmon 5px solid;
+}
+
+a {
+    color: blue;
+    padding: 0 5px;
+    text-decoration: none;
+}
+  
+a:hover {
+    background-color: lightblue;
+    color: red;
+}
+
+table {
+    background-color: chocolate;
+}
+
+td.rojo:hover {
+    background-color: red;
+    color: red;
+
+}
+
+td.amarillo:hover {
+    background-color: yellow;
+    color: yellow;
+
+}
+
+p.formulario {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+p.formulario:focus {
+    background-color: yellow;
+
+}
+
+hr {
+    height: 10px;
+    margin-left: 10%;
+    margin-right: 33%;
+    background-color: blue;
+    border-color: red;
+}
+
+div.bordes {
+    background-color: chocolate;
+    text-align: center;
+    border-color:orange red yellow;
+    border-width: 10px 40px;
+    border-style: dotted solid dashed;
+    color: yellow;
+
+}
+
+p.bordes {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    border-top: salmon 5px solid;
+    border-bottom: lightslategrey 5px solid;
+    background-color: lightslategrey;
+}
